@@ -25,6 +25,8 @@ typedef struct node NODE;
 typedef struct node * PNODE;
 typedef struct node ** PPNODE;
 
+void Insert(PNODE first, int no);
+
 void Insert(PPNODE first, int no)
 {
     PNODE newn = NULL;
